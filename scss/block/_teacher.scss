@@ -1,0 +1,39 @@
+.teacher__page__title{
+  text-align: center;
+}
+
+.total__teachers__count{
+  padding: 10px 20px;
+  border: 1px solid rgb(241, 180, 67);
+  background-color: rgb(228, 179, 87);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  p{
+    margin-bottom: 0px;
+  }
+}
+
+
+.all__teachers__box{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 60px;
+}
+
+.teacher__box{
+  padding: 20px;
+  border: 1.5px solid rgb(104, 165, 240);
+  box-shadow: 5px 5px 15px 2px rgb(104, 165, 240);
+  border-radius: 10px;
+}
+
+.teacher__img-box{
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.teacher__firstname-title, .teacher__btns-box{
+  margin-top: 20px;
+  text-align: center;
+}

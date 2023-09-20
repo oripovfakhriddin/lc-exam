@@ -1,0 +1,138 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Times new Roman";
+  height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body {
+  background-color: rgb(244, 205, 156);
+}
+
+.login__page-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+.login__page-box form {
+  padding: 50px 20px;
+  background-color: rgb(245, 214, 178);
+  border: 1px solid rgb(210, 191, 24);
+  border-radius: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  -webkit-box-shadow: 0 0 20px 2px;
+          box-shadow: 0 0 20px 2px;
+}
+
+.teacher__page__title {
+  text-align: center;
+}
+
+.total__teachers__count {
+  padding: 10px 20px;
+  border: 1px solid rgb(241, 180, 67);
+  background-color: rgb(228, 179, 87);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.total__teachers__count p {
+  margin-bottom: 0px;
+}
+
+.all__teachers__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 60px;
+}
+
+.teacher__box {
+  padding: 20px;
+  border: 1.5px solid rgb(104, 165, 240);
+  -webkit-box-shadow: 5px 5px 15px 2px rgb(104, 165, 240);
+          box-shadow: 5px 5px 15px 2px rgb(104, 165, 240);
+  border-radius: 10px;
+}
+
+.teacher__img-box {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.teacher__firstname-title, .teacher__btns-box {
+  margin-top: 20px;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
